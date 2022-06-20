@@ -1,0 +1,217 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	background: #F1FAFC;
+}
+/*navigation bar is started from here*/
+nav{
+	background: #242D52;
+	height: 80px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+.logo a{
+	color: white;
+}
+nav ul{
+	float: right;
+	line-height: 80px;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline;
+	margin: 0 10px;
+	font-size: 20px;
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	padding: 7px 13px;
+	border-radius: 4px;
+	background: #C5E1E7;
+}
+nav ul li button{
+	height: 30px;
+	width: 90px;
+	background: #242D52;
+	color: white;
+	border: 1px solid white;
+	font-size: 18px;
+	border-radius: 4px;
+}
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+/*after navigation bar the middle content*/
+.container{
+	height: 70vh;
+	width: 60%;
+	display: inline-flex;
+	gap: 20%;
+	margin: 60px 180px;
+	background: #F1FAFC;
+}
+.content1{
+	width: 600px;
+}
+.content1 h1{
+	font-size: 80px;
+	color: #242D52;
+	margin: 50px 0px;
+}
+.content1 p{
+	font-size: 30px;
+	font-family: Poppins;
+}
+.content1 button{
+	margin: 30px 0px;
+	height: 40px;
+	width: 140px;
+	background: rgba(36, 45, 82, 0.12);
+	border-radius: 4px;
+	border: 0.1px;
+	font-size: 20px;
+}
+.content1 button a{
+	color: black;
+}
+.content1 button a:hover{
+	color: #9998CD;
+}
+.img{
+	width: 500px;
+}
+.img img{
+	height: 70vh;
+	width: 500px;
+	object-fit: cover;
+	border-radius: 2px;
+}
+/*................Our team is started from here......................*/
+.title h1{
+	text-align: center;
+	font-size: 50px;
+	color: #242D52;
+	margin-top: 25px;
+}
+.content2{
+	width: 95%;
+	height: 63vh;
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	gap: 40px;
+	margin: 40px 10px;
+	/*box-shadow: 5px 10px 40px 10px rgba(0, 0, 0, 0.32);*/
+	text-align: center;
+}
+.content2 img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+	margin: 30px 22%;
+	object-fit: cover;
+}
+.content2 h2{
+	text-align: center;
+}
+.content2 h4{
+	text-align: center;
+}
+.content2 h3{
+	text-align: center;
+}
+.content2 P{
+	margin: 20px 25px;
+	font-size: 17px;
+	text-align: justify;
+	color: #940000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content2 .icon{
+	display: inline-flex;
+}
+.content2 .icon img{
+	height: 30px;
+	width: 30px;
+	margin: 20px 10px;
+}
+.content2 .niru, .karishma, .prapti, .anita{
+	background: #f8f8ff;
+	border-radius: 10px;
+}
+.content2 .niru:hover, .karishma:hover, .prapti:hover, .anita:hover{
+	box-shadow: 2px 5px 20px 20px rgba(0, 0, 0, 0.05);
+}
+.content3{
+	height: 50vh;
+	width: 94%;
+	margin: 40px 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+/*@media (max-width: 954px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 854px){
+	label.logo{
+		font-size: 15px;
+		padding-left: 25px;
+	}
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	nav ul li a:hover{
+		color: #0082e6;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}*/
